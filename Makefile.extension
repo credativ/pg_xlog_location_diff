@@ -1,0 +1,7 @@
+MODULES = pg_xlog_location_diff
+OBJS = pg_xlog_location_diff.o
+EXTENSION = pg_xlog_location_diff
+DATA = pg_xlog_location_diff--0.1.sql
+
+PGXS := $(shell pg_config --pgxs)
+include $(PGXS)
