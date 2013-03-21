@@ -1,3 +1,17 @@
+/*-------------------------------------------------------------------------
+ *
+ * pg_xlog_location_diff.c
+ *
+ * Calculate distance between XLOG positions in bytes.
+ *
+ * Portions Copyright (c) 1996-2012, PostgreSQL Global Development Group
+ * Portions Copyright (c) 1994, Regents of the University of California
+ *
+ * adapted and ported by Bernd Helmle <bernd.helmle@credativ.de>
+ *
+ *-------------------------------------------------------------------------
+ */
+
 #include "postgres.h"
 #include "funcapi.h"
 #include "access/xlog_internal.h"
