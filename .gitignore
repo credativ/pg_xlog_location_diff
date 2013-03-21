@@ -1,2 +1,4 @@
 *.o
+*~
+*.so
 pg_xlog_location_diff.sql
